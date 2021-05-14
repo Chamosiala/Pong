@@ -30,9 +30,9 @@ namespace Pong
             if (direction[0] == 1)
             {
                 if (direction[1] == -1 && paddle2.Top > 75)
-                    paddle2.Top -= speed - 2;
+                    paddle2.Top -= speed - 1;
                 if (direction[1] == 1 && paddle2.Top < 465)
-                    paddle2.Top += speed - 2;
+                    paddle2.Top += speed - 1;
             }
 
             if (moveUp == true && paddle1.Top > 75)
